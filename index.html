@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My blog</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://notoyontoy.site40.net/Js/jquery.infinitecarousel3.min.js"></script>
+  <script type="text/javascript" src="http://notoyontoy.site40.net/Js/easing.js"></script>
+  <script>
+
+     var a = jQuery.noConflict();
+        a(document).ready(function() {
+            a('#carousel').infiniteCarousel({
+               transitionSpeed:2000,     /*Tiempo de avance de las imagenes*/
+               displayTime: 2000,   /* El tiempo en milisegundos para hacer pausa*/
+               thumbnailType: 'false',
+               customClass: 'myCarousel',
+               easeLeft: 'linear',
+               easeRight:'linear',
+               inView: 1,    /*Imagenes mostradas*/
+               advance: true,
+               autoPilot: true,
+               displayProgressRing: true,    /*muestra grafica del tiempo que pausa la imagen*/
+
+            });
+         });
+
+</script>
+
+
+
+
+<body>
+    <div>
+	<ul id="carousel">
+
+          <li><img width="75" height="370" alt="" src="imagen/rostros1.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros2.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros3.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros4.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros5.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros6.jpg" /></li>
+          <li><img width="75" height="370" alt="" src="imagen/rostros7.jpg" /></li>
+    </ul> 
+    </div>
+
+	<!-- Aqui empieza las entradas-->
+	<section>
+		<h2>Top futbolistas</h2>
+		<article>
+		<ul>
+	<li><a href='2016Nominados.html.html'>2016Nominados</a></li>
+	<li><a href='Messi.html.html'>Messi</a></li>
+	<li><a href='Neymar.html.html'>Neymar</a></li>
+	<li><a href='Ribery.html.html'>Ribery</a></li>
+	<li><a href='Ronaldo.html.html'>Ronaldo</a></li>
+</ul>
+
+		</article>
+	</section>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background: #F8FBFC url(fondo2.png);
+}
+
+section
+{
+    font: 25px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;	
+	color: #222; text-shadow: 0px 2px 3px #555;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+p{
+	font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+}
+table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 45px;     
+    width: 680px; 
+    text-align: center;    
+    border-collapse: collapse; 
+}
+
+th {     
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+td {    
+	padding: 8px;    
+	background: #e8edff;     
+	border-bottom: 
+	1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+}

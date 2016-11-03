@@ -1,0 +1,70 @@
+body {
+    background: #F8FBFC url(fondo.png);
+}
+
+header 
+{
+	display: block; 
+	text-decoration: underline overline;
+	font: 35px Helvetica, Arial, Sans-Serif; 
+	letter-spacing: -5px;  
+	text-align: center;
+	color: #999; 
+	text-shadow: 0px 4px 8px #222;
+}
+ul{
+	 list-style:none;
+}
+a:link   
+{   
+ text-decoration:none;
+ color: #ffcc33;   
+} 
+a:visited 
+{
+	text-decoration:none;
+	color:#ffcc33;
+}
+a:active {
+	text-decoration:none;
+	color:green;
+}   
+section
+{
+    font: 25px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;	
+	color: #222; text-shadow: 0px 2px 3px #555;
+}
+
+article
+{
+	width: 500px; 
+	margin: 0 auto; 
+	background: #222; 
+	padding: 13px;
+	font-size: 22px; color: #555; 
+	text-shadow: 0px 2px 3px #171717;
+	-webkit-box-shadow: 0px 2px 3px #555;
+	-moz-box-shadow: 0px 2px 3px #555;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+div.ic_myCarousel {
+        margin: 20px auto 0 auto;
+        clear:right;
+    }
+
+    .infiniteCarousel {
+        box-shadow: 0px 3px 3px #333;
+        border: 3px solid #333;
+    }
+
+        .ic_left_nav, .ic_right_nav {
+            display: none;
+    }
+div{
+  position: absolute;
+  top:  0px; 
+  left: 75px;
+}
